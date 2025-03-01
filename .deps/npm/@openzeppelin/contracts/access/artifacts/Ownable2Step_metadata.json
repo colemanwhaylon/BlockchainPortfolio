@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -71,19 +66,6 @@
 				"type": "event"
 			},
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "ValueChanged",
-				"type": "event"
-			},
-			{
 				"inputs": [],
 				"name": "acceptOwnership",
 				"outputs": [],
@@ -124,32 +106,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "retrieve",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "storedValue",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "store",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -164,6 +120,7 @@
 			}
 		],
 		"devdoc": {
+			"details": "Contract module which provides access control mechanism, where there is an account (an owner) that can be granted exclusive access to specific functions. This extension of the {Ownable} contract includes a two-step mechanism to transfer ownership, where the new owner must call {acceptOwnership} in order to replace the old one. This can help prevent common mistakes, such as transfers of ownership to incorrect accounts, or to contracts that are unable to interact with the permission system. The initial owner is specified at deployment time in the constructor for `Ownable`. This can later be changed with {transferOwnership} and {acceptOwnership}. This module is used through inheritance. It will make available all functions from parent (Ownable).",
 			"errors": {
 				"OwnableInvalidOwner(address)": [
 					{
@@ -204,7 +161,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Create a Simple Storage Contract/simple.sol": "SimpleStorage"
+			".deps/npm/@openzeppelin/contracts/access/Ownable2Step.sol": "Ownable2Step"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -218,7 +175,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"@openzeppelin/contracts/access/Ownable.sol": {
+		".deps/npm/@openzeppelin/contracts/access/Ownable.sol": {
 			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
 			"license": "MIT",
 			"urls": [
@@ -226,7 +183,7 @@
 				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
 			]
 		},
-		"@openzeppelin/contracts/access/Ownable2Step.sol": {
+		".deps/npm/@openzeppelin/contracts/access/Ownable2Step.sol": {
 			"keccak256": "0xdcad8898fda432696597752e8ec361b87d85c82cb258115427af006dacf7128c",
 			"license": "MIT",
 			"urls": [
@@ -234,20 +191,12 @@
 				"dweb:/ipfs/QmReNFjXBiufByiAAzfSQ2SM5r3qeUErn46BmN3yVRvrek"
 			]
 		},
-		"@openzeppelin/contracts/utils/Context.sol": {
+		".deps/npm/@openzeppelin/contracts/utils/Context.sol": {
 			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
 			"license": "MIT",
 			"urls": [
 				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
-			]
-		},
-		"Create a Simple Storage Contract/simple.sol": {
-			"keccak256": "0x28db13f7cc1e94af432dced65212de7ebf9a584daa9abbe7b6d55c1ceacec591",
-			"license": "CC-BY-NC-4.0",
-			"urls": [
-				"bzz-raw://92be70e21d1cc875b2bbe84e396c69d0a3b7e8b08f3998b3302dacfad2d1cc78",
-				"dweb:/ipfs/QmbvsFZAwiukv61wRN6qTunALE5vungX9NhgVp4ppphCFX"
 			]
 		}
 	},
