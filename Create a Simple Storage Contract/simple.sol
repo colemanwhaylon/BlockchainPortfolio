@@ -1,4 +1,6 @@
-// SPDX-License-identifier: MIT
+// SPDX-License-Identifier: CC-BY-NC-4.0
+// https://spdx.org/licenses/
+
 pragma solidity ^0.8.25;
 
 contract SimpleStorage {

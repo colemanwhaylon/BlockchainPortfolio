@@ -73,10 +73,11 @@
 	},
 	"sources": {
 		"Create a Simple Storage Contract/simple.sol": {
-			"keccak256": "0x7c02d7f7929de7c29ef19f51c90e736cf4c71be41b8caa44d6b8fb0b14103393",
+			"keccak256": "0x1b1601c52d69830cbf11c620ac881b1fe1d1cc8a0495cb9ac5a725869a1b2ce7",
+			"license": "CC-BY-NC-4.0",
 			"urls": [
-				"bzz-raw://0f503c3aba296ce526969fae0f327054ba16c207be519c1353130f7a7201a615",
-				"dweb:/ipfs/QmSvKd98BcyCgt5Qygt9jYZSiyC6nHnWuNk1ao1b4thzAw"
+				"bzz-raw://ad11c42e1df7001df1fbc984bd43040f6ae3603f595a6a45173708dcb6f6e99d",
+				"dweb:/ipfs/QmUhGtUtj2QWVPhwvBrxodazTHPbo5MuE5bv81Yye4w83J"
 			]
 		}
 	},
